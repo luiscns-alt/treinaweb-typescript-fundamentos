@@ -1,0 +1,28 @@
+= TypeScript
+Doc Writer <doc@example.com>
+:reproducible: :listing-caption: Listing
+:source-highlighter: rouge
+:toc:
+// Uncomment next line to add a title page (or set doctype to book)
+//:title-page:
+// Uncomment next line to set page size (default is A4)
+//:pdf-page-size: Letter
+
+// An example of a basic http://asciidoc.org[AsciiDoc] document prepared by {author}.
+
+== Introduction
+Typescript é uma linguagem de código aberto desenvolvida pela Microsoft que foi construída em cima do Javascript, que é muito difundido atualmente. Então esse “superset” foi criado para adicionar recursos de tipagem estáticas à linguagem original.
+
+Em outras palavras, temos todas as funcionalidades do Javascript no Typescript acrescidas de várias outras funcionalidades que caracterizam o Typescript.
+
+Embora Typescript seja um superset do Javascript, na hora de compilar o código, todo Typescript é convertido/transpilado para Javascript.
+
+A pessoa desenvolvedora que estiver escrevendo códigos em Typescript lidará com uma sintaxe simplificada, mais clara e suportada por vários TaskRunners ou IDES, mas o seu código voltará a ser JS após transpilado.
+
+Isso se dá pelo browser não entender a sintaxe de outra linguagem de programação que não seja Javascript.
+
+== Vantagens do Typescript
+
+A principal caraterística do TypeScript é sua tipagem forte, razão pela qual leva no seu nome: type quer dizer tipo. Mas também há outro aspecto, a Orientação a Objetos.
+
+O JavaScript, na maior parte do seu projeto de linguagem, não é tipado e a inferência de tipo só vai até certo ponto. Daí uma necessidade maior de utilizar o TypeScript caso queira suprir essas deficiências.
