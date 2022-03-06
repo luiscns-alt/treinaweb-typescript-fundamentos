@@ -1,16 +1,8 @@
-// let nome: string;
-// let idade: number;
-// let maiorIdade: boolean;
+let a: number[] = [1, 2, 3];
+let b: (number | string)[] = [1, 2, 3, 'L', 'U', 'I', 'S'];
 
-let nome = 'Luis';
-let idade = 21;
-let maiorIdade = true;
+// a.push(1);
+// a.push(3);
 
-let a = 5;
-let b = 7;
-
-function soma(a: number, b: number) {
-    return a + b;
-}
-
-console.log(`Soma: ${soma(a, b)}`);
+console.log(a);
+console.log(b);
